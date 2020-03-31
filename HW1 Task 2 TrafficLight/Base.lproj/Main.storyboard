@@ -36,6 +36,9 @@
                                 <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dd2-KD-V0T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -44,6 +47,7 @@
                     <connections>
                         <outlet property="greenLight" destination="y4g-kS-KhX" id="Peg-fq-nik"/>
                         <outlet property="redLight" destination="94z-f7-07T" id="6TY-aS-UNr"/>
+                        <outlet property="startButton" destination="WRG-I8-eHe" id="Ixd-kG-hB9"/>
                         <outlet property="yellowLight" destination="jAQ-iR-y4j" id="TRQ-ro-iFW"/>
                     </connections>
                 </viewController>
